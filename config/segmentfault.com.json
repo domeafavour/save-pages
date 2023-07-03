@@ -1,0 +1,9 @@
+{
+  "title": "#__next > div.article-content.pt-3.pt-sm-0.container > div.row > div.col-xl.w-0.col-12 > div.mb-4.card > div.p-lg-30.position-relative.card-body > h1",
+  "author": "#right-side-wrap > div > div > div.mb-4 > div > div > div:nth-child(1) > div > h5",
+  "dateTime": "#__next > div.article-content.pt-3.pt-sm-0.container > div.row > div.col-xl.w-0.col-12 > div.mb-4.card > div.p-lg-30.position-relative.card-body > div.d-flex.flex-wrap.mb-4 > div.d-flex.align-items-center > a > div:nth-child(2) > time",
+  "content": {
+    "selector": "#__next > div.article-content.pt-3.pt-sm-0.container > div.row > div.col-xl.w-0.col-12 > div.mb-4.card > div.p-lg-30.position-relative.card-body > article",
+    "exclude": []
+  }
+}

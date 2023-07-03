@@ -22,6 +22,7 @@ and select a config(where your page comes from) to save the page:
 - [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/)
 - [juejin.cn](https://juejin.cn)
 - [cnblogs.com](https://www.cnblogs.com/)
+- [segmentfault.com](https://segmentfault.com)
 
 ## Todo
 
