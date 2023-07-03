@@ -1,0 +1,9 @@
+{
+  "title": "#juejin > div.view-container > main > div > div.main-area.article-area > article > h1",
+  "author": "#juejin > div.view-container > main > div > div.main-area.article-area > article > div.author-info-block > div > div.author-name > a > span",
+  "dateTime": "#juejin > div.view-container > main > div > div.main-area.article-area > article > div.author-info-block > div > div.meta-box > time",
+  "content": {
+    "selector": "#juejin > div.view-container > main > div > div.main-area.article-area > article > div.article-content.markdown-viewer > div",
+    "exclude": ["style"]
+  }
+}

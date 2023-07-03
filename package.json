@@ -1,0 +1,21 @@
+{
+  "name": "save-pages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "save": "ts-node save.ts"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "ts-node": "^10.9.1",
+    "turndown": "^7.1.2"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.0.2",
+    "@types/node": "^20.3.2",
+    "@types/turndown": "^5.0.1",
+    "typescript": "^5.1.6"
+  }
+}
