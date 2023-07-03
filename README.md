@@ -21,6 +21,7 @@ and select a config(where your page comes from) to save the page:
 - [blog.csdn.net](https://www.csdn.net/)
 - [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/)
 - [juejin.cn](https://juejin.cn)
+- [cnblogs.com](https://www.cnblogs.com/)
 
 ## Todo
 

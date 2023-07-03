@@ -1,0 +1,9 @@
+{
+  "title": "#cb_post_title_url",
+  "author": "#profile_block > a:nth-child(1)",
+  "dateTime": "#post-date",
+  "content": {
+    "selector": "#cnblogs_post_body",
+    "exclude": []
+  }
+}
