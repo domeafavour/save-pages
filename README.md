@@ -1,6 +1,6 @@
 # Save Pages
 
-save web pages from [`junjin.cn`](https://juejin.cn/) as pdf files.
+save web pages as pdf files.
 
 ## Installation
 
@@ -8,10 +8,21 @@ save web pages from [`junjin.cn`](https://juejin.cn/) as pdf files.
 yarn
 ```
 
-## Demo
+## Usage
+
+Run this command:
 
 ```bash
 yarn save https://juejin.cn/post/7251032736693534757
 ```
 
+and select a config(where your page comes from) to save the page:
+
+- [blog.csdn.net](https://www.csdn.net/)
+- [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/)
+- [juejin.cn](https://juejin.cn)
+
 ## Todo
+
+- [ ] command for creating config file
+- [ ] set default config by url
