@@ -1,0 +1,9 @@
+{
+  "title": "#root > div > main > div > article > header > h1",
+  "author": "#root > div > main > div > article > header > div.Post-Author > div > div > div > div.AuthorInfo-head > span > div > a",
+  "dateTime": "#root > div > main > div > article > div.ContentItem-time",
+  "content": {
+    "selector": "#root > div > main > div > article > div.Post-RichTextContainer > div > div > div",
+    "exclude": []
+  }
+}

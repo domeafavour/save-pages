@@ -1,0 +1,9 @@
+{
+  "title": "#articleContentId",
+  "author": "#mainBox > main > div.blog-content-box > div.article-header-box > div > div.article-info-box > div.article-bar-top > div > a.follow-nickName",
+  "dateTime": "#mainBox > main > div.blog-content-box > div.article-header-box > div > div.article-info-box > div.article-bar-top > div > span.time",
+  "content": {
+    "selector": "#js_content",
+    "exclude": ["style"]
+  }
+}
