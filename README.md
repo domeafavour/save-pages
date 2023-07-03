@@ -24,5 +24,5 @@ and select a config(where your page comes from) to save the page:
 
 ## Todo
 
-- [ ] command for creating config file
+- [x] command for creating config file
 - [ ] set default config by url

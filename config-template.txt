@@ -1,0 +1,9 @@
+{
+  "title": "",
+  "author": "",
+  "dateTime": "",
+  "content": {
+    "selector": "",
+    "exclude": []
+  }
+}
