@@ -1,6 +1,6 @@
 # Save Pages
 
-save web pages from `junjin.cn` as pdf files.
+save web pages from [`junjin.cn`](https://juejin.cn/) as pdf files.
 
 ## Installation
 
