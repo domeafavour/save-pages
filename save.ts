@@ -89,6 +89,7 @@ const options = (
     type: 'select',
     name: 'config',
     message: 'Please select a config',
+    initial: Math.max(options.findIndex(opt => !!url.match(opt.name!)), 0),
     choices: options.map((opt) => ({ title: opt.name!, value: opt.path })),
   });
 
