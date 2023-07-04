@@ -50,11 +50,19 @@ function getMarkdown(html: string, config: ConfigDef) {
   return { title, author, dateTime, markdown };
 }
 
+function getOutputPath() {
+  const outputPath = path.join(process.cwd(), 'output');
+  if (!fs.existsSync(outputPath)) {
+    fs.mkdirSync(outputPath);
+  }
+  return outputPath;
+}
+
 async function run(url: string, config: ConfigDef) {
   const html = await fetchHtml(url);
   const { title, markdown } = getMarkdown(html, config);
 
-  const filePath = path.join(process.cwd(), 'output', `${title}.md`);
+  const filePath = path.join(getOutputPath(), `${title}.md`);
   saveMarkdownSync(filePath, markdown);
   const exitStatus = await generatePdf(filePath);
   if (exitStatus > 0) {
